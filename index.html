@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="mainScreen">
+        <div class="menu">
+            <div class="logo"><img src="icons/logo.svg"> Tac-Tic-Tec</div>
+            <div class="links">
+                <a href="#"><img src="icons/deskdop.svg"> Dashboard</a>
+                <a href="#"><img src="icons/secand.svg"> Tactics Vault</a>
+                <a href="#"><img src="icons/third.svg"> Team</a>
+                <a href="#" id="sgLink"><img src="icons/fourth.svg"> Shedule Generator</a>
+                <a href="#"><img src="icons/fifth.svg"> Weekly Traning Plans</a>
+                <a href="#"><img src="icons/sixth.svg"> Team Matrics</a>
+                <a href="#"><img src="icons/seventh.svg"> Custiomizations</a>
+            </div>
+            <div class="menuFooter">
+                Select Your Team
+                <div class="button">
+                    Team Name
+                    <img class="triangleUp" src="icons/eight.svg">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="navBar" id="navBarLinks">
+                <a href="#" onclick="navBarSelected(0)">Teams</a>
+                <a href="#" onclick="navBarSelected(1)">U23</a>
+                <a href="#" onclick="navBarSelected(2)">U19</a>
+                <div class="profile">
+                    <div class="line"></div>
+                    <img src="img/myImage.jpg">
+                    <p>Abhishek <img src="icons/upero.svg"></p>
+                </div>
+            </div>
+            <div class="buttonSearch">
+                <button>Add New Shedule</button>
+                <div class="search">
+                    <img src="icons/search.svg">
+                    <input type="search" placeholder="Search Your Shedule">
+                </div>
+            </div>
+            <div class="schedule">
+                <div class="navSchedule">
+                    <div class="textOnly">
+                        <div class="heading">Winter Training schedule</div>
+                        <div class="cont">4 Weeks | 12 Sessions</div>
+                    </div>
+                    <div class="schIcons">
+                        <img src="icons/pensil.svg">
+                        <img src="icons/delete.svg">
+                        <img src="icons/eight.svg">
+                    </div>
+                </div>
+                <div class="sheduleCont">
+                    <div class="navTwo">
+                        <div class="date">
+                            <div class="cont">START DATE</div>
+                            <div class="heading">25 January 2020</div>
+                        </div>
+                        <div class="date">
+                            <div class="cont">END DATE</div>
+                            <div class="heading">19 February 2020</div>
+                        </div>
+                        <button>Update</button>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="change(0)"><div class="circle"></div> SUNDAY</button>
+                        <button onclick="change(1)"><div class="circle"></div> MONDAY</button>
+                        <button onclick="change(2)"><div class="circle"></div> TUESDAY</button>
+                        <button onclick="change(3)"><div class="circle"></div> WEDNESDAY</button>
+                        <button onclick="change(4)"><div class="circle"></div> THURSDAY</button>
+                        <button onclick="change(5)"><div class="circle"></div> FRIDAY</button>
+                        <button onclick="change(6)"><div class="circle"></div> SATURDAY</button>
+                    </div>
+                </div>
+                <div class="updateBox">
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                    <div class="updates">
+                        <div class="date">
+                            <div class="heading">Winter Training Schedule</div>
+                            <div class="cont">4 weeks | 12 Sessions</div>
+                        </div>
+                        <div class="schIcons">
+                            <img src="icons/downero.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sgClose" id="sgBox">
+        <div class="sg">
+            <div class="headingSg">Create New Schedule</div>
+            <div class="form">
+                <div class="input">
+                    <label for="name">Schedule Name</label>
+                    <input type="text" placeholder="Enter Name">
+                </div>
+                <div class="lineInput">
+                    <div class="input">
+                        <label for="name">Start Date</label>
+                        <input type="date" placeholder="Select start date">
+                    </div>
+                    <div class="input">
+                        <label for="name">End Date</label>
+                        <input type="date" placeholder="Select end date">
+                    </div>
+                    <div class="input">
+                        <label for="name">Enter No. of weeks</label>
+                        <input type="number" placeholder="Enter No. of weeks">
+                    </div>
+                </div>
+                <div class="buttons" style="padding: 0px">
+                    <button id="sgClose" style=" background-color: #dddddd; color: #5d5d5d; outline: 0px; border-radius: 2px; ">Close</button>
+                    <button style="background-color: #32cd32; color: #ffffff; outline: 0px; border-radius: 2px; ">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    var navBarLinks = document.getElementById("navBarLinks");
+    var navLinks = navBarLinks.querySelectorAll("a");
+
+    function navBarSelected(n) {
+        if (n == 0) {
+            navLinks[n].style.color = "black";
+            navLinks[n + 1].style.color = "";
+            navLinks[n + 2].style.color = "";
+            navLinks[n].style.borderBottom = "5px solid #32cd3c";
+            navLinks[n + 1].style.borderBottom = "0px solid #32cd3c";
+            navLinks[n + 2].style.borderBottom = "0px solid #32cd3c";
+        }
+
+        if (n == 1) {
+            navLinks[n].style.color = "black";
+            navLinks[n - 1].style.color = "";
+            navLinks[n + 1].style.color = "";
+            navLinks[n].style.borderBottom = "5px solid #32cd3c";
+            navLinks[n - 1].style.borderBottom = "0px solid #32cd3c";
+            navLinks[n + 2].style.borderBottom = "0px solid #32cd3c";
+        }
+
+        if (n == 2) {
+            navLinks[n].style.color = "black";
+            navLinks[n - 1].style.color = "";
+            navLinks[n - 2].style.color = "";
+            navLinks[n].style.borderBottom = "5px solid #32cd3c";
+            navLinks[n - 1].style.borderBottom = "0px solid #32cd3c";
+            navLinks[n - 2].style.borderBottom = "0px solid #32cd3c";
+        }
+    };
+
+    var buttons = document.querySelector(".buttons");
+    var btn = buttons.querySelectorAll("button");
+
+    function change(m) {
+        for (i = 0; i < 7; i++) {
+            btn[i].style.outline = "";
+            btn[i].style.color = "";
+            btn[i].querySelector(".circle").style.backgroundColor = "";
+        }
+        btn[m].style.outline = "1px solid #32cd32";
+        btn[m].style.color = "#32cd32";
+        btn[m].querySelector(".circle").style.backgroundColor = "#32cd32";
+    };
+
+    var sgBox = document.getElementById("sgBox");
+    var sgLink = document.getElementById("sgLink");
+    var sgClose = document.getElementById("sgClose");
+
+    sgLink.addEventListener("click", () => {
+        sgBox.setAttribute("class", "sgActive");
+    });
+
+    sgClose.addEventListener("click", () => {
+        sgBox.setAttribute("class", "sgClose");
+    });
+</script>
+
+</html>
