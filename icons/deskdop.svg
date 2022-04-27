@@ -1,0 +1,15 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="20.166" height="20.166" viewBox="0 0 20.166 20.166">
+        <g id="pie-chart_1_" data-name="pie-chart (1)" transform="translate(0 1)">
+          <g id="Group_10" data-name="Group 10" transform="translate(0 2.2)">
+            <g id="Group_9" data-name="Group 9">
+              <path id="Path_7" data-name="Path 7" d="M9.048,69.917V62H8.483a8.483,8.483,0,1,0,8.483,8.483v-.566Z" transform="translate(0 -62)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Group_12" data-name="Group 12" transform="translate(11.118 -1)">
+            <g id="Group_11" data-name="Group 11">
+              <path id="Path_8" data-name="Path 8" d="M272.565,0H272V9.048h9.048V8.483A8.492,8.492,0,0,0,272.565,0Z" transform="translate(-272)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </svg>
